@@ -315,3 +315,44 @@ body
   position:relative;
   left:60%;
 }
+
+.x1
+{
+  text-decoration:none;
+  background-color: #131313;
+  color:royalblue;
+}
+
+.x1 ul li
+{
+  display: flex;
+  list-style-type: none;
+}
+
+.chatOut
+{
+   width:40%;
+  height:50pt;
+  padding:10pt;
+  border-radius: 10pt;
+  justify-content: left;
+  position:relative;
+  left:0%;
+  font-size: 0.65em; 
+}
+
+
+
+#three
+{
+ width:40%;
+  height:50pt;
+  padding:10pt;
+  border-radius: 10pt;
+  justify-content: left;
+  position:relative;
+  left:0%;
+  font-size: 0.65em;
+  background-color: #131313; 
+}
+

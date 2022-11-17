@@ -57,7 +57,7 @@
         <div style="display:flex">
             <div class="nav-items" style="width:65%">
               <div class="search">
-                <input type="text" id="searchbar" placeholder="search members" onkeyup="search_brand()" name='search'>
+                <input type="text" id="searchbar" placeholder="search members by ID, Name or Task" onkeyup="search_brand()" name='search'>
                 <button class="search-btn">+</button>
             </div>
             </div>
@@ -72,9 +72,9 @@
         
         <div style="height:75pt;width:85%;position:relative;top:150pt;left:10%;background-color:#131313;border-radius: 10pt;
         justify-content: space-between;align-items: center;padding:40pt;display:flex;font-size:2em;margin-bottom: 10pt;">
-            <p style="background-color: rgb(0,0,0,0);opacity:1">ID</p>
-            <p style="background-color: rgb(0,0,0,0);opacity:1">Name</p>
-            <p style="background-color: rgb(0,0,0,0);opacity:1">Task</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;margin-left: 50pt;">ID</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;margin-left: 50pt;">Name</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;margin-left: 50pt;">Task</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1">Manage</p>
 
         </div>
@@ -82,22 +82,100 @@
         <div style="height:550pt;width:85%;position:relative;top:150pt;left:10%;background-color:#131313;border-radius: 10pt;
         justify-content: space-around;align-items: center;padding-left:5pt;font-size:1em;">
 
-            <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
         justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
             <p style="background-color: rgb(0,0,0,0);opacity:1">DJ005</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1">Joe Mama</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1">Manager</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1">+</p>
+        </div>
             </div>
 
-            <div style="height:50pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
         justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;margin-bottom: 40pt;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">DJ006</p>
-            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Joe Mama</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Ron Joker</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Assasin</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">+</p>
             </div>
+        </div>
 
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1">DJ007</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Doe Papa</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Manager</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">+</p>
+        </div>
+            </div>
+
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;margin-bottom: 40pt;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">DJ008</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Tim Poker</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Assasin</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">+</p>
+            </div>
+        </div>
+
+
+
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1">DJ009</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Pip Coco</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Dealer</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">+</p>
+        </div>
+            </div>
+
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;margin-bottom: 40pt;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">DJ010</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Rim Chim</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Assasin</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">+</p>
+            </div>
+        </div>
+
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1">DJ011</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Tan Pick</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">Dealer</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1">+</p>
+        </div>
+            </div>
+
+            <div class="searchM" style="height:40pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;margin-bottom: 40pt;">
+        <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
+        justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">DJ012</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Jim Decal</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Assasin</p>
+            <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">+</p>
+            </div>
+        </div>
+
+
+
+
+        <!--
             <div style="height:40pt;width:100%;position:relative;top:0;left:0%;background-color:#131313;border-radius: 10pt;
         justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;">
             <p style="background-color: rgb(0,0,0,0);opacity:1">DJ005</p>
@@ -123,7 +201,7 @@
             <p style="background-color: rgb(0,0,0,0);opacity:1">+</p>
             </div>
 
-            <div style="height:50pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
+            <div style="height:40pt;width:100%;position:relative;top:20pt;left:0%;background-color:#131313;border-radius: 10pt;
         justify-content: space-around;align-items: center;padding-left:5pt;display:flex;font-size:1em;margin-bottom: 40pt;">
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">DJ006</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Joe Mama</p>
@@ -146,47 +224,13 @@
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">Assasin</p>
             <p style="background-color: rgb(0,0,0,0);opacity:1;color:red">+</p>
             </div>
-
+            -->
 
 
         </div>
 
         <div style="height:100pt;width:85%;position:relative;top:150pt;left:10%;border-radius: 10pt;"></div>
-        <!--
-        <center><div class="landing" style="width:100%;height:250px;background-color:black;margin:10pt;position:relative;top:150pt;">
-            <div class="gMembers">
-                <button style="background-image:url('images/arrowL.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;left:0%;z-index: 1;">W</button>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"><h1 style="background-color: rgb(0,0,0,0);position:relative;top:30%;font-size:1.25em;">Bobby Bob</h1><div style="position:relative;top:50%;left:0%;background-color:rgb(0,0,0,0);display: flex; margin:10pt;"><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;margin-right:10pt">Promote</p><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;color:red">Execute</p></div></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <button style="background-image:url('images/arrowR.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;right:0%;z-index: 1;">W</button>
-            </div>
-
-            <div class="gMembers">
-                <button style="background-image:url('images/arrowL.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;left:0%;z-index: 1;">W</button>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"><h1 style="background-color: rgb(0,0,0,0);position:relative;top:30%;font-size:1.25em;">Bobby Bob</h1><div style="position:relative;top:50%;left:0%;background-color:rgb(0,0,0,0);display: flex; margin:10pt;"><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;margin-right:10pt">Promote</p><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;color:red">Execute</p></div></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <button style="background-image:url('images/arrowR.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;right:0%;z-index: 1;">W</button>
-            </div>
-
-            <div class="gMembers">
-                <button style="background-image:url('images/arrowL.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;left:0%;z-index: 1;">W</button>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"><h1 style="background-color: rgb(0,0,0,0);position:relative;top:30%;font-size:1.25em;">Bobby Bob</h1><div style="position:relative;top:50%;left:0%;background-color:rgb(0,0,0,0);display: flex; margin:10pt;"><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;margin-right:10pt">Promote</p><p style="width:100px;height:30px;background-color:black;opacity:0.7;border-radius:5pt;color:red">Execute</p></div></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <div class="g-card" style="background-image: url('images/2.jpeg');"></div>
-                <button style="background-image:url('images/arrowR.png');background-repeat: no-repeat;color:black;position:relative;top:65pt;right:0%;z-index: 1;">W</button>
-            </div>
-
-
-        </div></center>
-        -->
+        
 
 
   <script src="scriptM.js"></script>
